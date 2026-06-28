@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f9f9f9;
+    --text-color: #333333;
+    --white: #ffffff;
+
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+
+    --small-font: 14px;
+    --normal-font: 16px;
+    --large-font: 20px;
+    --xlarge-font: 32px;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font);
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: var(--xlarge-font);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: var(--large-font);
+    margin-bottom: 15px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
